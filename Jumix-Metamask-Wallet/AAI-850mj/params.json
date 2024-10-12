@@ -1,0 +1,59 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 30,
+        "width": 30
+    },
+    "display": "SnapLauncher",
+    "events": {
+        "AAP": {
+            "caption": "Metamask Connected",
+            "name": "metamask_connected"
+        },
+        "AAQ": {
+            "caption": "Snap Connected",
+            "name": "snap_connected"
+        },
+        "AAj": {
+            "caption": "Wallet InvokeSnap Success",
+            "name": "wallet_invokesnap_success"
+        }
+    },
+    "icon": "ion-social-bitcoin",
+    "states": {
+        "AAK": {
+            "caption": "metamask is Installed",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected",
+            "value": "boolean"
+        },
+        "AAO": {
+            "caption": "account ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "account_id",
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "version snap install",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "version_snap_install",
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "snaps installed",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "snaps_installed",
+            "value": "text"
+        }
+    }
+}
