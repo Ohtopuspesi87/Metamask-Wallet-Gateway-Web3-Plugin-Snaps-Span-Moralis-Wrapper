@@ -1,0 +1,22 @@
+{
+    "caption": "Connect to Snap",
+    "fields": {
+        "AAS": {
+            "caption": "Package Name",
+            "default_val": "npm:metla-transaction-analyzer",
+            "editor": "DynamicValue",
+            "name": "package_name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "version",
+            "default_val": "latest",
+            "doc": "Example: ^1.0.2",
+            "editor": "DynamicValue",
+            "name": "version",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}
